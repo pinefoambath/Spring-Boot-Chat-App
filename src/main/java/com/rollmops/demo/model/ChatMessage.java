@@ -1,8 +1,17 @@
 package com.rollmops.demo.model;
 
 public class ChatMessage {
+    private String messageId;
     private String username;
-    private String message;
+    private String messageText;
+
+    public Integer getMessageId() {
+        return messageId;
+    }
+
+    public void setMessageId(Integer MessageId) {
+        this.messageId = messageId;
+    }
 
     public String getUsername() {
         return username;
@@ -13,10 +22,10 @@ public class ChatMessage {
     }
 
     public String getMessage() {
-        return message;
+        return messageText;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
+    public void setMessage(String messageText) {
+        this.messageText = messageText;
     }
 }

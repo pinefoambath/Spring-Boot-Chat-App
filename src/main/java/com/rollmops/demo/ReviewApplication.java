@@ -1,5 +1,6 @@
 package com.rollmops.demo;
 
+import com.rollmops.demo.service.MessageService;
         import org.springframework.boot.SpringApplication;
         import org.springframework.boot.autoconfigure.SpringBootApplication;
         import org.springframework.context.annotation.Bean;
