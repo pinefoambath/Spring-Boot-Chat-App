@@ -1,7 +1,7 @@
 package com.rollmops.demo.model;
 
 public class ChatMessage {
-    private String messageId;
+    private Integer messageId;
     private String username;
     private String messageText;
 
